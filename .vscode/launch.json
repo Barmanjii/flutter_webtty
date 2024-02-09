@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Webtty (debug)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--web-port",
+        "21415",
+        "-t",
+        "lib/main.dart"
+      ],
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Flutter Webtty (release)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--web-port",
+        "21415",
+        "-t",
+        "lib/main.dart"
+      ],
+      "flutterMode": "release"
+    }
+  ] 
+}
